@@ -1,0 +1,415 @@
+// Configuracion visual de los controles. Puede abrirse en el Disenador de Windows Forms.
+namespace Calculadora
+{
+    partial class Form1
+    {
+        private System.ComponentModel.IContainer components = null;
+        private System.Windows.Forms.TableLayoutPanel tablaPrincipal;
+        private System.Windows.Forms.TableLayoutPanel tablaPantalla;
+        private System.Windows.Forms.TableLayoutPanel tablaBotones;
+        private System.Windows.Forms.Panel panelTitulo;
+        private System.Windows.Forms.Label lblTitulo;
+        private System.Windows.Forms.Label lblSubtitulo;
+        private System.Windows.Forms.Label lblOperacion;
+        private System.Windows.Forms.TextBox txtPantalla;
+        private System.Windows.Forms.Button btn7;
+        private System.Windows.Forms.Button btn8;
+        private System.Windows.Forms.Button btn9;
+        private System.Windows.Forms.Button btnDividir;
+        private System.Windows.Forms.Button btn4;
+        private System.Windows.Forms.Button btn5;
+        private System.Windows.Forms.Button btn6;
+        private System.Windows.Forms.Button btnMultiplicar;
+        private System.Windows.Forms.Button btn1;
+        private System.Windows.Forms.Button btn2;
+        private System.Windows.Forms.Button btn3;
+        private System.Windows.Forms.Button btnRestar;
+        private System.Windows.Forms.Button btnLimpiar;
+        private System.Windows.Forms.Button btn0;
+        private System.Windows.Forms.Button btnIgual;
+        private System.Windows.Forms.Button btnSumar;
+
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && components != null) components.Dispose();
+            base.Dispose(disposing);
+        }
+
+        private void InitializeComponent()
+        {
+            this.tablaPrincipal = new System.Windows.Forms.TableLayoutPanel();
+            this.tablaPantalla = new System.Windows.Forms.TableLayoutPanel();
+            this.tablaBotones = new System.Windows.Forms.TableLayoutPanel();
+            this.panelTitulo = new System.Windows.Forms.Panel();
+            this.lblTitulo = new System.Windows.Forms.Label();
+            this.lblSubtitulo = new System.Windows.Forms.Label();
+            this.lblOperacion = new System.Windows.Forms.Label();
+            this.txtPantalla = new System.Windows.Forms.TextBox();
+            this.btn7 = new System.Windows.Forms.Button();
+            this.btn8 = new System.Windows.Forms.Button();
+            this.btn9 = new System.Windows.Forms.Button();
+            this.btnDividir = new System.Windows.Forms.Button();
+            this.btn4 = new System.Windows.Forms.Button();
+            this.btn5 = new System.Windows.Forms.Button();
+            this.btn6 = new System.Windows.Forms.Button();
+            this.btnMultiplicar = new System.Windows.Forms.Button();
+            this.btn1 = new System.Windows.Forms.Button();
+            this.btn2 = new System.Windows.Forms.Button();
+            this.btn3 = new System.Windows.Forms.Button();
+            this.btnRestar = new System.Windows.Forms.Button();
+            this.btnLimpiar = new System.Windows.Forms.Button();
+            this.btn0 = new System.Windows.Forms.Button();
+            this.btnIgual = new System.Windows.Forms.Button();
+            this.btnSumar = new System.Windows.Forms.Button();
+            this.tablaPrincipal.SuspendLayout();
+            this.tablaPantalla.SuspendLayout();
+            this.tablaBotones.SuspendLayout();
+            this.panelTitulo.SuspendLayout();
+            this.SuspendLayout();
+            // tablaPrincipal
+            this.tablaPrincipal.BackColor = System.Drawing.Color.FromArgb(244, 247, 252);
+            this.tablaPrincipal.ColumnCount = 1;
+            this.tablaPrincipal.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tablaPrincipal.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tablaPrincipal.Margin = new System.Windows.Forms.Padding(0);
+            this.tablaPrincipal.Name = "tablaPrincipal";
+            this.tablaPrincipal.Padding = new System.Windows.Forms.Padding(15);
+            this.tablaPrincipal.RowCount = 3;
+            this.tablaPrincipal.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 76F));
+            this.tablaPrincipal.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 115F));
+            this.tablaPrincipal.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tablaPrincipal.Controls.Add(this.panelTitulo, 0, 0);
+            this.tablaPrincipal.Controls.Add(this.tablaPantalla, 0, 1);
+            this.tablaPrincipal.Controls.Add(this.tablaBotones, 0, 2);
+            // panelTitulo
+            this.panelTitulo.BackColor = System.Drawing.Color.FromArgb(23, 39, 68);
+            this.panelTitulo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelTitulo.Margin = new System.Windows.Forms.Padding(0, 0, 0, 6);
+            this.panelTitulo.Name = "panelTitulo";
+            this.panelTitulo.Padding = new System.Windows.Forms.Padding(14, 7, 14, 7);
+            this.panelTitulo.Controls.Add(this.lblSubtitulo);
+            this.panelTitulo.Controls.Add(this.lblTitulo);
+            // lblTitulo
+            this.lblTitulo.Dock = System.Windows.Forms.DockStyle.Top;
+            this.lblTitulo.Font = new System.Drawing.Font("Segoe UI", 19F, System.Drawing.FontStyle.Bold);
+            this.lblTitulo.ForeColor = System.Drawing.Color.White;
+            this.lblTitulo.Name = "lblTitulo";
+            this.lblTitulo.Height = 41;
+            this.lblTitulo.Text = "CALCULADORA";
+            this.lblTitulo.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // lblSubtitulo
+            this.lblSubtitulo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblSubtitulo.Font = new System.Drawing.Font("Segoe UI", 8.5F);
+            this.lblSubtitulo.ForeColor = System.Drawing.Color.FromArgb(198, 211, 236);
+            this.lblSubtitulo.Name = "lblSubtitulo";
+            this.lblSubtitulo.Text = "Diseño y Programación de Software";
+            this.lblSubtitulo.TextAlign = System.Drawing.ContentAlignment.BottomLeft;
+            // tablaPantalla
+            this.tablaPantalla.BackColor = System.Drawing.Color.FromArgb(230, 237, 247);
+            this.tablaPantalla.ColumnCount = 1;
+            this.tablaPantalla.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tablaPantalla.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tablaPantalla.Margin = new System.Windows.Forms.Padding(0, 3, 0, 9);
+            this.tablaPantalla.Name = "tablaPantalla";
+            this.tablaPantalla.RowCount = 2;
+            this.tablaPantalla.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 34F));
+            this.tablaPantalla.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tablaPantalla.Controls.Add(this.lblOperacion, 0, 0);
+            this.tablaPantalla.Controls.Add(this.txtPantalla, 0, 1);
+            // lblOperacion
+            this.lblOperacion.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.lblOperacion.Font = new System.Drawing.Font("Segoe UI", 10F);
+            this.lblOperacion.ForeColor = System.Drawing.Color.FromArgb(91, 108, 133);
+            this.lblOperacion.Margin = new System.Windows.Forms.Padding(12, 5, 12, 0);
+            this.lblOperacion.Name = "lblOperacion";
+            this.lblOperacion.Text = "Ingrese un número";
+            this.lblOperacion.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // txtPantalla
+            this.txtPantalla.BackColor = System.Drawing.Color.FromArgb(230, 237, 247);
+            this.txtPantalla.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.txtPantalla.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.txtPantalla.Font = new System.Drawing.Font("Segoe UI", 28F, System.Drawing.FontStyle.Bold);
+            this.txtPantalla.ForeColor = System.Drawing.Color.FromArgb(23, 39, 68);
+            this.txtPantalla.Margin = new System.Windows.Forms.Padding(12, 1, 12, 7);
+            this.txtPantalla.Multiline = true;
+            this.txtPantalla.Name = "txtPantalla";
+            this.txtPantalla.ReadOnly = true;
+            this.txtPantalla.ShortcutsEnabled = false;
+            this.txtPantalla.TabStop = false;
+            this.txtPantalla.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            // tablaBotones
+            this.tablaBotones.ColumnCount = 4;
+            this.tablaBotones.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tablaBotones.Margin = new System.Windows.Forms.Padding(0);
+            this.tablaBotones.Name = "tablaBotones";
+            this.tablaBotones.RowCount = 4;
+            this.tablaBotones.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tablaBotones.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tablaBotones.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tablaBotones.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tablaBotones.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tablaBotones.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tablaBotones.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            this.tablaBotones.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 25F));
+            // btn7
+            this.btn7.BackColor = System.Drawing.Color.FromArgb(255, 255, 255);
+            this.btn7.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn7.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btn7.FlatAppearance.BorderSize = 0;
+            this.btn7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn7.Font = new System.Drawing.Font("Segoe UI", 19F, System.Drawing.FontStyle.Bold);
+            this.btn7.ForeColor = System.Drawing.Color.FromArgb(32, 43, 62);
+            this.btn7.Margin = new System.Windows.Forms.Padding(5);
+            this.btn7.Name = "btn7";
+            this.btn7.TabIndex = 0;
+            this.btn7.Text = "7";
+            this.btn7.UseVisualStyleBackColor = false;
+            this.btn7.Click += new System.EventHandler(this.BotonNumero_Click);
+            this.tablaBotones.Controls.Add(this.btn7, 0, 0);
+            // btn8
+            this.btn8.BackColor = System.Drawing.Color.FromArgb(255, 255, 255);
+            this.btn8.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn8.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btn8.FlatAppearance.BorderSize = 0;
+            this.btn8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn8.Font = new System.Drawing.Font("Segoe UI", 19F, System.Drawing.FontStyle.Bold);
+            this.btn8.ForeColor = System.Drawing.Color.FromArgb(32, 43, 62);
+            this.btn8.Margin = new System.Windows.Forms.Padding(5);
+            this.btn8.Name = "btn8";
+            this.btn8.TabIndex = 1;
+            this.btn8.Text = "8";
+            this.btn8.UseVisualStyleBackColor = false;
+            this.btn8.Click += new System.EventHandler(this.BotonNumero_Click);
+            this.tablaBotones.Controls.Add(this.btn8, 1, 0);
+            // btn9
+            this.btn9.BackColor = System.Drawing.Color.FromArgb(255, 255, 255);
+            this.btn9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn9.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btn9.FlatAppearance.BorderSize = 0;
+            this.btn9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn9.Font = new System.Drawing.Font("Segoe UI", 19F, System.Drawing.FontStyle.Bold);
+            this.btn9.ForeColor = System.Drawing.Color.FromArgb(32, 43, 62);
+            this.btn9.Margin = new System.Windows.Forms.Padding(5);
+            this.btn9.Name = "btn9";
+            this.btn9.TabIndex = 2;
+            this.btn9.Text = "9";
+            this.btn9.UseVisualStyleBackColor = false;
+            this.btn9.Click += new System.EventHandler(this.BotonNumero_Click);
+            this.tablaBotones.Controls.Add(this.btn9, 2, 0);
+            // btnDividir
+            this.btnDividir.BackColor = System.Drawing.Color.FromArgb(40, 79, 145);
+            this.btnDividir.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnDividir.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnDividir.FlatAppearance.BorderSize = 0;
+            this.btnDividir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnDividir.Font = new System.Drawing.Font("Segoe UI", 19F, System.Drawing.FontStyle.Bold);
+            this.btnDividir.ForeColor = System.Drawing.Color.FromArgb(255, 255, 255);
+            this.btnDividir.Margin = new System.Windows.Forms.Padding(5);
+            this.btnDividir.Name = "btnDividir";
+            this.btnDividir.TabIndex = 3;
+            this.btnDividir.Text = "÷";
+            this.btnDividir.UseVisualStyleBackColor = false;
+            this.btnDividir.Tag = "/";
+            this.btnDividir.Click += new System.EventHandler(this.BotonOperacion_Click);
+            this.tablaBotones.Controls.Add(this.btnDividir, 3, 0);
+            // btn4
+            this.btn4.BackColor = System.Drawing.Color.FromArgb(255, 255, 255);
+            this.btn4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btn4.FlatAppearance.BorderSize = 0;
+            this.btn4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn4.Font = new System.Drawing.Font("Segoe UI", 19F, System.Drawing.FontStyle.Bold);
+            this.btn4.ForeColor = System.Drawing.Color.FromArgb(32, 43, 62);
+            this.btn4.Margin = new System.Windows.Forms.Padding(5);
+            this.btn4.Name = "btn4";
+            this.btn4.TabIndex = 4;
+            this.btn4.Text = "4";
+            this.btn4.UseVisualStyleBackColor = false;
+            this.btn4.Click += new System.EventHandler(this.BotonNumero_Click);
+            this.tablaBotones.Controls.Add(this.btn4, 0, 1);
+            // btn5
+            this.btn5.BackColor = System.Drawing.Color.FromArgb(255, 255, 255);
+            this.btn5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn5.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btn5.FlatAppearance.BorderSize = 0;
+            this.btn5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn5.Font = new System.Drawing.Font("Segoe UI", 19F, System.Drawing.FontStyle.Bold);
+            this.btn5.ForeColor = System.Drawing.Color.FromArgb(32, 43, 62);
+            this.btn5.Margin = new System.Windows.Forms.Padding(5);
+            this.btn5.Name = "btn5";
+            this.btn5.TabIndex = 5;
+            this.btn5.Text = "5";
+            this.btn5.UseVisualStyleBackColor = false;
+            this.btn5.Click += new System.EventHandler(this.BotonNumero_Click);
+            this.tablaBotones.Controls.Add(this.btn5, 1, 1);
+            // btn6
+            this.btn6.BackColor = System.Drawing.Color.FromArgb(255, 255, 255);
+            this.btn6.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn6.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btn6.FlatAppearance.BorderSize = 0;
+            this.btn6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn6.Font = new System.Drawing.Font("Segoe UI", 19F, System.Drawing.FontStyle.Bold);
+            this.btn6.ForeColor = System.Drawing.Color.FromArgb(32, 43, 62);
+            this.btn6.Margin = new System.Windows.Forms.Padding(5);
+            this.btn6.Name = "btn6";
+            this.btn6.TabIndex = 6;
+            this.btn6.Text = "6";
+            this.btn6.UseVisualStyleBackColor = false;
+            this.btn6.Click += new System.EventHandler(this.BotonNumero_Click);
+            this.tablaBotones.Controls.Add(this.btn6, 2, 1);
+            // btnMultiplicar
+            this.btnMultiplicar.BackColor = System.Drawing.Color.FromArgb(40, 79, 145);
+            this.btnMultiplicar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnMultiplicar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnMultiplicar.FlatAppearance.BorderSize = 0;
+            this.btnMultiplicar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMultiplicar.Font = new System.Drawing.Font("Segoe UI", 19F, System.Drawing.FontStyle.Bold);
+            this.btnMultiplicar.ForeColor = System.Drawing.Color.FromArgb(255, 255, 255);
+            this.btnMultiplicar.Margin = new System.Windows.Forms.Padding(5);
+            this.btnMultiplicar.Name = "btnMultiplicar";
+            this.btnMultiplicar.TabIndex = 7;
+            this.btnMultiplicar.Text = "×";
+            this.btnMultiplicar.UseVisualStyleBackColor = false;
+            this.btnMultiplicar.Tag = "*";
+            this.btnMultiplicar.Click += new System.EventHandler(this.BotonOperacion_Click);
+            this.tablaBotones.Controls.Add(this.btnMultiplicar, 3, 1);
+            // btn1
+            this.btn1.BackColor = System.Drawing.Color.FromArgb(255, 255, 255);
+            this.btn1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btn1.FlatAppearance.BorderSize = 0;
+            this.btn1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn1.Font = new System.Drawing.Font("Segoe UI", 19F, System.Drawing.FontStyle.Bold);
+            this.btn1.ForeColor = System.Drawing.Color.FromArgb(32, 43, 62);
+            this.btn1.Margin = new System.Windows.Forms.Padding(5);
+            this.btn1.Name = "btn1";
+            this.btn1.TabIndex = 8;
+            this.btn1.Text = "1";
+            this.btn1.UseVisualStyleBackColor = false;
+            this.btn1.Click += new System.EventHandler(this.BotonNumero_Click);
+            this.tablaBotones.Controls.Add(this.btn1, 0, 2);
+            // btn2
+            this.btn2.BackColor = System.Drawing.Color.FromArgb(255, 255, 255);
+            this.btn2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btn2.FlatAppearance.BorderSize = 0;
+            this.btn2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn2.Font = new System.Drawing.Font("Segoe UI", 19F, System.Drawing.FontStyle.Bold);
+            this.btn2.ForeColor = System.Drawing.Color.FromArgb(32, 43, 62);
+            this.btn2.Margin = new System.Windows.Forms.Padding(5);
+            this.btn2.Name = "btn2";
+            this.btn2.TabIndex = 9;
+            this.btn2.Text = "2";
+            this.btn2.UseVisualStyleBackColor = false;
+            this.btn2.Click += new System.EventHandler(this.BotonNumero_Click);
+            this.tablaBotones.Controls.Add(this.btn2, 1, 2);
+            // btn3
+            this.btn3.BackColor = System.Drawing.Color.FromArgb(255, 255, 255);
+            this.btn3.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btn3.FlatAppearance.BorderSize = 0;
+            this.btn3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn3.Font = new System.Drawing.Font("Segoe UI", 19F, System.Drawing.FontStyle.Bold);
+            this.btn3.ForeColor = System.Drawing.Color.FromArgb(32, 43, 62);
+            this.btn3.Margin = new System.Windows.Forms.Padding(5);
+            this.btn3.Name = "btn3";
+            this.btn3.TabIndex = 10;
+            this.btn3.Text = "3";
+            this.btn3.UseVisualStyleBackColor = false;
+            this.btn3.Click += new System.EventHandler(this.BotonNumero_Click);
+            this.tablaBotones.Controls.Add(this.btn3, 2, 2);
+            // btnRestar
+            this.btnRestar.BackColor = System.Drawing.Color.FromArgb(40, 79, 145);
+            this.btnRestar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRestar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnRestar.FlatAppearance.BorderSize = 0;
+            this.btnRestar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRestar.Font = new System.Drawing.Font("Segoe UI", 19F, System.Drawing.FontStyle.Bold);
+            this.btnRestar.ForeColor = System.Drawing.Color.FromArgb(255, 255, 255);
+            this.btnRestar.Margin = new System.Windows.Forms.Padding(5);
+            this.btnRestar.Name = "btnRestar";
+            this.btnRestar.TabIndex = 11;
+            this.btnRestar.Text = "-";
+            this.btnRestar.UseVisualStyleBackColor = false;
+            this.btnRestar.Tag = "-";
+            this.btnRestar.Click += new System.EventHandler(this.BotonOperacion_Click);
+            this.tablaBotones.Controls.Add(this.btnRestar, 3, 2);
+            // btnLimpiar
+            this.btnLimpiar.BackColor = System.Drawing.Color.FromArgb(196, 64, 73);
+            this.btnLimpiar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnLimpiar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnLimpiar.FlatAppearance.BorderSize = 0;
+            this.btnLimpiar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLimpiar.Font = new System.Drawing.Font("Segoe UI", 19F, System.Drawing.FontStyle.Bold);
+            this.btnLimpiar.ForeColor = System.Drawing.Color.FromArgb(255, 255, 255);
+            this.btnLimpiar.Margin = new System.Windows.Forms.Padding(5);
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.TabIndex = 12;
+            this.btnLimpiar.Text = "C";
+            this.btnLimpiar.UseVisualStyleBackColor = false;
+            this.btnLimpiar.Click += new System.EventHandler(this.btnLimpiar_Click);
+            this.tablaBotones.Controls.Add(this.btnLimpiar, 0, 3);
+            // btn0
+            this.btn0.BackColor = System.Drawing.Color.FromArgb(255, 255, 255);
+            this.btn0.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn0.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btn0.FlatAppearance.BorderSize = 0;
+            this.btn0.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn0.Font = new System.Drawing.Font("Segoe UI", 19F, System.Drawing.FontStyle.Bold);
+            this.btn0.ForeColor = System.Drawing.Color.FromArgb(32, 43, 62);
+            this.btn0.Margin = new System.Windows.Forms.Padding(5);
+            this.btn0.Name = "btn0";
+            this.btn0.TabIndex = 13;
+            this.btn0.Text = "0";
+            this.btn0.UseVisualStyleBackColor = false;
+            this.btn0.Click += new System.EventHandler(this.BotonNumero_Click);
+            this.tablaBotones.Controls.Add(this.btn0, 1, 3);
+            // btnIgual
+            this.btnIgual.BackColor = System.Drawing.Color.FromArgb(23, 139, 110);
+            this.btnIgual.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnIgual.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnIgual.FlatAppearance.BorderSize = 0;
+            this.btnIgual.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnIgual.Font = new System.Drawing.Font("Segoe UI", 19F, System.Drawing.FontStyle.Bold);
+            this.btnIgual.ForeColor = System.Drawing.Color.FromArgb(255, 255, 255);
+            this.btnIgual.Margin = new System.Windows.Forms.Padding(5);
+            this.btnIgual.Name = "btnIgual";
+            this.btnIgual.TabIndex = 14;
+            this.btnIgual.Text = "=";
+            this.btnIgual.UseVisualStyleBackColor = false;
+            this.btnIgual.Click += new System.EventHandler(this.btnIgual_Click);
+            this.tablaBotones.Controls.Add(this.btnIgual, 2, 3);
+            // btnSumar
+            this.btnSumar.BackColor = System.Drawing.Color.FromArgb(40, 79, 145);
+            this.btnSumar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnSumar.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.btnSumar.FlatAppearance.BorderSize = 0;
+            this.btnSumar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnSumar.Font = new System.Drawing.Font("Segoe UI", 19F, System.Drawing.FontStyle.Bold);
+            this.btnSumar.ForeColor = System.Drawing.Color.FromArgb(255, 255, 255);
+            this.btnSumar.Margin = new System.Windows.Forms.Padding(5);
+            this.btnSumar.Name = "btnSumar";
+            this.btnSumar.TabIndex = 15;
+            this.btnSumar.Text = "+";
+            this.btnSumar.UseVisualStyleBackColor = false;
+            this.btnSumar.Tag = "+";
+            this.btnSumar.Click += new System.EventHandler(this.BotonOperacion_Click);
+            this.tablaBotones.Controls.Add(this.btnSumar, 3, 3);
+            // Form1
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(244, 247, 252);
+            this.ClientSize = new System.Drawing.Size(430, 570);
+            this.Controls.Add(this.tablaPrincipal);
+            this.MinimumSize = new System.Drawing.Size(360, 485);
+            this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Calculadora - Joel Ordoñez";
+            this.tablaPrincipal.ResumeLayout(false);
+            this.tablaPantalla.ResumeLayout(false);
+            this.tablaPantalla.PerformLayout();
+            this.tablaBotones.ResumeLayout(false);
+            this.panelTitulo.ResumeLayout(false);
+            this.ResumeLayout(false);
+        }
+    }
+}

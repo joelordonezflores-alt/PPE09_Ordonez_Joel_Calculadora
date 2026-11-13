@@ -1,0 +1,14 @@
+# Archivos generados automaticamente por .NET y Visual Studio
+**/bin/
+**/obj/
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+TestResults/
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
